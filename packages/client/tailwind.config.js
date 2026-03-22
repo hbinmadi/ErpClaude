@@ -1,0 +1,45 @@
+export default {
+  content: ['./src/**/*.{ts,tsx}'],
+  theme: {
+    extend: {
+      colors: {
+        bg: 'var(--bg)',
+        surface: 'var(--bg-surface)',
+        elevated: 'var(--bg-elevated)',
+        hover: 'var(--bg-hover)',
+        border: 'var(--border)',
+        'border-muted': 'var(--border-muted)',
+        text: 'var(--text)',
+        muted: 'var(--text-muted)',
+        faint: 'var(--text-faint)',
+        primary: 'var(--primary)',
+        'primary-light': 'var(--primary-light)',
+        'primary-dark': 'var(--primary-dark)',
+        'primary-fg': 'var(--primary-fg)',
+        'primary-subtle': 'var(--primary-subtle)',
+        danger: 'var(--danger)',
+        'danger-subtle': 'var(--danger-subtle)',
+        success: 'var(--success)',
+        'success-subtle': 'var(--success-subtle)',
+        warning: 'var(--warning)',
+        'warning-subtle': 'var(--warning-subtle)',
+        info: 'var(--info)',
+        'info-subtle': 'var(--info-subtle)',
+      },
+      fontFamily: {
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+      },
+      borderRadius: {
+        DEFAULT: 'var(--radius)',
+        sm: 'var(--radius-sm)',
+        lg: 'var(--radius-lg)',
+      },
+      boxShadow: {
+        sm: 'var(--shadow-sm)',
+        DEFAULT: 'var(--shadow)',
+        lg: 'var(--shadow-lg)',
+      },
+    },
+  },
+  plugins: [],
+};

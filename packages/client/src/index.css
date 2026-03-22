@@ -1,0 +1,244 @@
+/* ============================================================
+   Modern ERP Theme System — CSS Custom Properties
+   ============================================================ */
+
+/* ── Dark (default) ── */
+[data-theme="dark"], :root {
+  --bg: #0f172a;
+  --bg-surface: #1e293b;
+  --bg-elevated: #293548;
+  --bg-hover: #334155;
+  --border: #334155;
+  --border-muted: #1e293b;
+  --text: #f1f5f9;
+  --text-muted: #94a3b8;
+  --text-faint: #475569;
+  --primary: #6366f1;
+  --primary-light: #818cf8;
+  --primary-dark: #4f46e5;
+  --primary-fg: #ffffff;
+  --primary-subtle: #1e1b4b;
+  --danger: #ef4444;
+  --danger-fg: #ffffff;
+  --danger-subtle: #450a0a;
+  --success: #22c55e;
+  --success-fg: #ffffff;
+  --success-subtle: #052e16;
+  --warning: #f59e0b;
+  --warning-fg: #000000;
+  --warning-subtle: #451a03;
+  --info: #38bdf8;
+  --info-fg: #ffffff;
+  --info-subtle: #082f49;
+  --sidebar-bg: #0f172a;
+  --sidebar-border: #1e293b;
+  --sidebar-fg: #94a3b8;
+  --sidebar-fg-active: #f1f5f9;
+  --sidebar-active-bg: #1e293b;
+  --sidebar-indicator: #6366f1;
+  --topbar-bg: #1e293b;
+  --topbar-border: #334155;
+  --input-bg: #1e293b;
+  --input-border: #334155;
+  --input-focus: #6366f1;
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.4);
+  --shadow: 0 4px 12px rgba(0,0,0,0.5);
+  --shadow-lg: 0 8px 32px rgba(0,0,0,0.6);
+  --radius: 8px;
+  --radius-sm: 4px;
+  --radius-lg: 12px;
+  --font: 'Inter', system-ui, sans-serif;
+}
+
+/* ── Light ── */
+[data-theme="light"] {
+  --bg: #f8fafc;
+  --bg-surface: #ffffff;
+  --bg-elevated: #f1f5f9;
+  --bg-hover: #e2e8f0;
+  --border: #e2e8f0;
+  --border-muted: #f1f5f9;
+  --text: #0f172a;
+  --text-muted: #64748b;
+  --text-faint: #94a3b8;
+  --primary: #6366f1;
+  --primary-light: #818cf8;
+  --primary-dark: #4f46e5;
+  --primary-fg: #ffffff;
+  --primary-subtle: #eef2ff;
+  --danger: #dc2626;
+  --danger-fg: #ffffff;
+  --danger-subtle: #fef2f2;
+  --success: #16a34a;
+  --success-fg: #ffffff;
+  --success-subtle: #f0fdf4;
+  --warning: #d97706;
+  --warning-fg: #000000;
+  --warning-subtle: #fffbeb;
+  --info: #0284c7;
+  --info-fg: #ffffff;
+  --info-subtle: #f0f9ff;
+  --sidebar-bg: #1e293b;
+  --sidebar-border: #334155;
+  --sidebar-fg: #94a3b8;
+  --sidebar-fg-active: #ffffff;
+  --sidebar-active-bg: #334155;
+  --sidebar-indicator: #818cf8;
+  --topbar-bg: #ffffff;
+  --topbar-border: #e2e8f0;
+  --input-bg: #ffffff;
+  --input-border: #cbd5e1;
+  --input-focus: #6366f1;
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.08);
+  --shadow: 0 4px 12px rgba(0,0,0,0.1);
+  --shadow-lg: 0 8px 32px rgba(0,0,0,0.15);
+}
+
+/* ── Ocean ── */
+[data-theme="ocean"] {
+  --bg: #04111e;
+  --bg-surface: #061828;
+  --bg-elevated: #0b2236;
+  --bg-hover: #0f3047;
+  --border: #0f3047;
+  --border-muted: #061828;
+  --text: #cce8ff;
+  --text-muted: #7ab5d6;
+  --text-faint: #3d7394;
+  --primary: #0ea5e9;
+  --primary-light: #38bdf8;
+  --primary-dark: #0284c7;
+  --primary-fg: #ffffff;
+  --primary-subtle: #082f49;
+  --danger: #f87171;
+  --danger-fg: #ffffff;
+  --danger-subtle: #3b0a0a;
+  --success: #4ade80;
+  --success-fg: #000000;
+  --success-subtle: #052e16;
+  --warning: #fbbf24;
+  --warning-fg: #000000;
+  --warning-subtle: #3d1f02;
+  --info: #67e8f9;
+  --info-fg: #000000;
+  --info-subtle: #0c2838;
+  --sidebar-bg: #02090f;
+  --sidebar-border: #0a1e2e;
+  --sidebar-fg: #5d8fa8;
+  --sidebar-fg-active: #cce8ff;
+  --sidebar-active-bg: #0a1e2e;
+  --sidebar-indicator: #0ea5e9;
+  --topbar-bg: #061828;
+  --topbar-border: #0f3047;
+  --input-bg: #0b2236;
+  --input-border: #0f3047;
+  --input-focus: #0ea5e9;
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.5);
+  --shadow: 0 4px 12px rgba(0,0,0,0.6);
+  --shadow-lg: 0 8px 32px rgba(0,0,0,0.7);
+}
+
+/* ── Violet ── */
+[data-theme="violet"] {
+  --bg: #0d0b14;
+  --bg-surface: #16122a;
+  --bg-elevated: #1d183c;
+  --bg-hover: #26204f;
+  --border: #26204f;
+  --border-muted: #16122a;
+  --text: #ede8ff;
+  --text-muted: #a89ec7;
+  --text-faint: #5a4f7a;
+  --primary: #8b5cf6;
+  --primary-light: #a78bfa;
+  --primary-dark: #7c3aed;
+  --primary-fg: #ffffff;
+  --primary-subtle: #1e0a45;
+  --danger: #f87171;
+  --danger-fg: #ffffff;
+  --danger-subtle: #2d0808;
+  --success: #4ade80;
+  --success-fg: #000000;
+  --success-subtle: #052e16;
+  --warning: #fbbf24;
+  --warning-fg: #000000;
+  --warning-subtle: #2d1702;
+  --info: #67e8f9;
+  --info-fg: #000000;
+  --info-subtle: #0c1c28;
+  --sidebar-bg: #07060e;
+  --sidebar-border: #1a1630;
+  --sidebar-fg: #6b5f98;
+  --sidebar-fg-active: #ede8ff;
+  --sidebar-active-bg: #1a1630;
+  --sidebar-indicator: #8b5cf6;
+  --topbar-bg: #16122a;
+  --topbar-border: #26204f;
+  --input-bg: #1d183c;
+  --input-border: #26204f;
+  --input-focus: #8b5cf6;
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.6);
+  --shadow: 0 4px 12px rgba(0,0,0,0.7);
+  --shadow-lg: 0 8px 32px rgba(0,0,0,0.8);
+}
+
+/* ============================================================
+   Base Reset & Global Styles
+   ============================================================ */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  font-size: 14px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ── Scrollbars ── */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-faint);
+}
+
+/* ── Focus ring ── */
+*:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}
+*:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* ── Selection ── */
+::selection {
+  background: var(--primary);
+  color: var(--primary-fg);
+}
+
+/* ── Transitions ── */
+.transition-colors {
+  transition: color 0.15s, background-color 0.15s, border-color 0.15s;
+}
